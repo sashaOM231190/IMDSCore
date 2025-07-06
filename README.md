@@ -78,6 +78,6 @@ IMDSCore.exe --mode dac --identity user --clientid [ClientId] --test
 IMDSCore.exe --mode mic --identity sys --nettrace --logdir "C:\Logs"
 
 ## On Linux, override default log directory
-./IMDSCore --mode mic --identity user --clientid [ClientId] --overridepath /tmp/customlogs
+./IMDSCore --mode mic --identity user --clientid [ClientId] --logdir /tmp/customlogs --overridepath 
 
 
