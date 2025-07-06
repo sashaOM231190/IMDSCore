@@ -56,8 +56,11 @@ Usage:
 
 Examples:
   IMDSCore.exe --mode mic --identity sys
+  
   IMDSCore.exe --mode mic --identity user --clientid <ClientId> --test --printtoken
+  
   IMDSCore.exe --nettrace --logdir
+  
   Use --overridepath in Linux falvours to change the default log path
 
 
