@@ -66,18 +66,18 @@ Examples:
 
 
 # Use ManagedIdentityCredential with system-assigned identity
-IMDSCore.exe --mode mic --identity sys --maxfailures <n>
+IMDSCore.exe --mode mic --identity sys --maxfailures [n]
 
 # Use MIC with user-assigned identity, print token in log file
-IMDSCore.exe --mode mic --identity user --clientid [ClientIdGUID] --printtoken
+IMDSCore.exe --mode mic --identity user --clientid [ClientId] --printtoken
 
 # Run a single token test in dry-run mode
-IMDSCore.exe --mode dac --identity user --clientid [ClientIdGUID] --test
+IMDSCore.exe --mode dac --identity user --clientid [ClientId] --test
 
 # Enable network tracing and log to a specific folder
 IMDSCore.exe --mode mic --identity sys --nettrace --logdir "C:\Logs"
 
 # On Linux, override default log directory
-./IMDSCore --mode mic --identity user --clientid [ClientIdGUID] --overridepath /tmp/customlogs
+./IMDSCore --mode mic --identity user --clientid [ClientId] --overridepath /tmp/customlogs
 
 
