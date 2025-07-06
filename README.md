@@ -9,17 +9,18 @@ Azure Kubernetes Service (AKS) with Workload Identity
 
 Azure-hosted containers or Service Fabric apps
 
-🚀 Core Features
-🔐 Managed Identity Token Probing
+#Core Features
+
+- Managed Identity Token Probing
 Repeatedly acquires tokens using either ManagedIdentityCredential (--mode mic) or DefaultAzureCredential (--mode dac) and logs successes or failures.
 
-🚨 Failure Threshold Monitoring
+- Failure Threshold Monitoring
 Automatically exits if a configurable number of consecutive failures is reached.
 
-🌐 Network Trace Collection
+- Network Trace Collection
 Collects IMDS traffic using netsh (on Windows) or tcpdump (on Linux) to troubleshoot endpoint reachability and delays.
 
-⚙️ Flexible Command-Line Interface
+- Flexible Command-Line Interface
 Intuitive and robust CLI with named switches for mode, identity type, log directory, test mode, and tracing options.
 
 
