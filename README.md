@@ -48,7 +48,7 @@ IMDSCore.exe --mode mic|dac --identity sys|user
 
 Note : When --maxfailures or max number of log files are reached tool will stop itself.
 
-[Download IMDSCore for windows and linux](https://github.com/sashaOM231190/IMDSCore/releases/tag/v1.0.0)
+[Download IMDSCore for Windows and Linux](https://github.com/sashaOM231190/IMDSCore/releases/tag/v1.0.0)
 
 Usage:
    IMDSCore.exe --mode mic|dac --identity sys|user [--clientid <id>] [--maxfailures <n>] [--logdir <path>] [--test] [--printtoken] [--nettrace]
