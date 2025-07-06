@@ -3,11 +3,11 @@ IMDSCore is a diagnostic and health monitoring utility that validates Azure Mana
 
 This tool is especially useful for debugging identity and token issues in environments like:
 
-Azure Virtual Machines or App Services using Managed Identity
+- Azure Virtual Machines or App Services using Managed Identity
 
-Azure Kubernetes Service (AKS) with Workload Identity
+- Azure Kubernetes Service (AKS) with Workload Identity
 
-Azure-hosted containers or Service Fabric apps
+- Azure-hosted containers or Service Fabric apps
 
 # Core Features
 
