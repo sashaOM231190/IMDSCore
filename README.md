@@ -46,7 +46,7 @@ IMDSCore.exe --mode mic|dac --identity sys|user
 | `--printtoken`   | Print the acquired token to the log file, run in test setup                          |
 | `--nettrace`     | Enable network trace collection using `netsh` or `tcpdump`                           |
 
-Note : When --maxfailures or max number of log files are reached tool will stop itself.
+Note : When --maxfailures or max number of log files are reached, tracing will stop itself.
 
 [Download IMDSCore for Windows and Linux](https://github.com/sashaOM231190/IMDSCore/releases/tag/v1.0.0)
 
