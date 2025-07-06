@@ -9,7 +9,7 @@ Azure Kubernetes Service (AKS) with Workload Identity
 
 Azure-hosted containers or Service Fabric apps
 
-#Core Features
+# Core Features
 
 - Managed Identity Token Probing
 Repeatedly acquires tokens using either ManagedIdentityCredential (--mode mic) or DefaultAzureCredential (--mode dac) and logs successes or failures.
