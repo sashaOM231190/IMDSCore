@@ -26,6 +26,8 @@ Optionally logs proxy settings and diagnostics using --proxyprob.
 Flexible Logging
 Supports custom log directories, log file size can be dynamically set (default unit: 250MB), and up to 4 rotated files.
 
+[Download IMDSCore for Windows and Linux](https://github.com/sashaOM231190/IMDSCore/releases/tag/v1.0.0)
+
 IMDSCore.exe --mode mic|dac --identity sys|user 
              [--clientid [id]] 
              [--maxfailures [n]] 
