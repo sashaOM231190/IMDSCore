@@ -10,7 +10,8 @@ Azure Kubernetes Service (AKS) with Workload Identity
 
 Azure-hosted containers or Service Fabric applications
 
-🔧 Core Features
+# Core Features
+
 Managed Identity Token Probing
 Uses ManagedIdentityCredential (--mode mic) or DefaultAzureCredential (--mode dac) to repeatedly request tokens and log results.
 
@@ -71,10 +72,11 @@ IMDSCore.exe --mode dac --identity user --clientid [ClientId] --test
 IMDSCore.exe --mode mic --identity sys --nettrace --logdir "C:\Logs"
 
 ## On Linux: Override Default Log Path (/tmp/imdstrace)
-   note : With network trace prefer using default log path, else it may fail with permission error
+   ### Note : With network trace prefer using default log path (don't use --logdir), else it may fail with permission error, 
+   
 ./IMDSCore --mode mic --identity user --clientid [ClientId] --logdir /tmp/customlogs --overridepath
 
-## On Linux/Ubuntu containers, install tcpdump and pkill, else network trace will not work
+## On Linux/Ubuntu containers, install tcpdump and pkill, to make network trace work.
 
 
 
