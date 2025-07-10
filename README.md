@@ -32,6 +32,7 @@ IMDSCore.exe --mode mic|dac --identity sys|user
              [--test] 
              [--printtoken] 
              [--nettrace]
+             [--logfile]
 
 
 | Switch           | Description                                                                          |
