@@ -1,4 +1,4 @@
-#IMDSCore – Azure Managed Identity Diagnostics 
+# IMDSCore – Azure Managed Identity Diagnostics 
 
 IMDSCore is a diagnostic and health monitoring utility designed to validate Azure Managed Identity and DefaultAzureCredential token acquisition behavior via the IMDS (Instance Metadata Service) endpoint. It optionally supports packet-level network tracing and proxy probing to help identify connectivity or authentication issues.
 
